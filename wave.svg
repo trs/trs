@@ -1,26 +1,43 @@
-<svg fill="none" viewBox="0 0 50 40" width="40" height="50" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 50 50" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				 @keyframes rotate {
+				.container {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+        .wave {
+          padding: 0;
+          margin: 0;
+          font-size: 25px;
+					line-height: 50px;
+          animation: rotate ease-in-out 800ms infinite alternate;
+					transform-origin: 75% 65%;
+        }
+
+				@keyframes rotate {
 					0% {
-						transform: rotate(40deg);
+						transform: rotate(35deg);
 					}
 					100% {
 						transform: rotate(-5deg);
 					}
 				}
 
-        .wave {
-          padding: 0;
-          margin: 0;
-          font-size: 30px;
-          animation: rotate ease-in-out 800ms infinite alternate;
-					transform-origin: 65% 80%;
-        }
+				@media (prefers-reduced-motion) {
+					.wave {
+						animation: none;
+					}
+				}
 			</style>
 
-			<p class="wave">👋</p>
+			<div class="container">
+				<p class="wave">👋</p>
+			</div>
 		</div>
 	</foreignObject>
 </svg>

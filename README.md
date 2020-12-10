@@ -1,1 +1,1 @@
-<img src="wave.svg" width="50" height="40" alt="👋">
+<img src="wave.svg" width="50" height="50" alt="👋">
