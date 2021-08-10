@@ -54,7 +54,7 @@
 			</style>
 
 			<div class="container">
-				<h1 class="greeting">Hello!</h1>
+				<h1 class="greeting color-text-primary">Hello!</h1>
 				<span class="spacer"></span>
 				<p class="wave">👋</p>
 			</div>
