@@ -1,1 +1,1 @@
-<img src="wave.svg" alt="👋">
+<img src="banner.png" alt="👋">
