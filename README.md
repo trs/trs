@@ -1,4 +1,4 @@
-<img src="banner.png" alt="👋">
+<img src="wave.svg" alt="👋">
 
 ## Hey!
 
